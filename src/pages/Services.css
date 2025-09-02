@@ -1,0 +1,276 @@
+.services-page {
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.services-hero {
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+              url('https://images.pexels.com/photos/5908729/pexels-photo-5908729.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 60px;
+}
+
+/* Services Container */
+.services-container {
+  padding: 60px 0;
+  background-color: #f8f8f8;
+}
+
+/* Service Item */
+.service-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 80px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.service-item:last-child {
+  margin-bottom: 0;
+}
+
+.service-item:nth-child(even) {
+  flex-direction: row;
+}
+
+.service-image {
+  flex: 1.2;
+  max-width: 420px;
+  
+  display: flex;
+}
+
+.service-image img {
+  width: 80%;
+  height: 180%;
+  object-fit: cover;
+  border-radius: 0px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  min-height: 280px;
+}
+
+.service-content {
+  flex: 1;
+  max-width: 350px;
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 40px; 
+  padding-bottom: 100px;
+}
+
+.service-content h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.service-content p {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #27ae60;
+  font-weight: 500;
+  margin: 20px 0 15px 0;
+}
+
+.start-project-btn {
+  background: transparent;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  padding: 10px 25px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.start-project-btn:hover {
+  background-color: #2c3e50;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(44, 62, 80, 0.3);
+}
+
+/* Why Love Nature Section */
+.why-love-nature {
+  padding: 80px 0;
+  background-color: #ecf0f1;
+}
+
+.why-love-nature .container {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+.why-content {
+  flex: 1;
+}
+
+.why-content h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.why-content p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+.badges-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 400px;
+}
+
+.badge {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  background-color: #bdc3c7;
+  color: #7f8c8d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-size: 24px;
+}
+
+.badge-icon:hover {
+  background-color: #95a5a6;
+  color: #2c3e50;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.award-icon {
+  background: linear-gradient(135deg, #f39c12, #e67e22);
+}
+
+.star-icon {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+.refresh-icon {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+}
+
+.support-icon {
+  background: linear-gradient(135deg, #9b59b6, #8e44ad);
+}
+
+
+
+.badge p {
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .service-item {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .service-content h2 {
+    font-size: 2rem;
+  }
+
+  .why-love-nature .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .why-content h2 {
+    font-size: 2rem;
+  }
+
+  .badges-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .services-container {
+    padding: 60px 0;
+  }
+
+  .why-love-nature {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .service-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .why-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .badge-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,133 @@
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: transparent !important; /* no color */
+}
+
+.navbar {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent !important; /* no color */
+  z-index: 1000;
+}
+.nav-links a:focus {
+ /* outline: 2px solid #F5C842; /* Same yellow as hover */
+  /* outline-offset: 2px; */
+
+  outline: none;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: transparent !important; 
+}
+
+
+.logo-image {
+  height: 65px; /* slightly bigger */
+  width: auto;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  /* background-color: blue; */
+}
+
+.logo-image:hover {
+  transform: scale(1.05);
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white; /* white so it shows over hero */
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  /* text-shadow: 0 1px 3px rgba(0,0,0,0.5); add shadow for readability */
+}
+
+.nav-links a:hover {
+  color: #F5C842;
+  transform: translateY(-1px);
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+
+.phone-number {
+  background: transparent !important; 
+  padding: 10px 20px;
+  border: 1px solid white;   /* thin white border */
+  border-radius: 0px;        /* keep edges sharp */
+  font-weight: 500;
+  color: white;              /* ensure text is white */
+  transition: all 0.3s ease;
+}
+.phone-number:hover {
+  background: rgba(255, 255, 255, 0.1); /* optional subtle hover effect */
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 20px;
+  }
+ 
+  .navbar {
+    padding: 15px 0;
+  }
+
+  .right-section {
+    gap: 25px;
+  }
+ 
+  .nav-links {
+    gap: 25px;
+  }
+ 
+  .nav-links a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .right-section {
+    gap: 20px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+ 
+  .nav-links a {
+    font-size: 13px;
+  }
+ 
+  .phone-number {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+
+}
