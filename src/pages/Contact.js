@@ -37,14 +37,14 @@ const Contact = () => {
     // 🔹 Step 1: Send message to YOU
     emailjs
       .send(
-        "service_zi1l9vk",      // Service ID
-        "template_b61xw8o",     // Template ID ()
+        "service_s9v5mrn",      // Service ID
+        "template_qnpvl6k",     // Template ID ()
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
      },
-        "Tr3sfmejEUBSEHaKb"     // ✅ Public API Key
+        "5QbuCQ99nb_u8vxqY"     // ✅ Public API Key
       )
       .then(
         (result) => {
@@ -52,14 +52,14 @@ const Contact = () => {
 
           // 🔹 Step 2: Send Auto-Reply back to user
           emailjs.send(
-            "service_zi1l9vk",     // same Service ID
-            "template_cq3vttj",    // ✅ Auto-reply template ID
+            "service_s9v5mrn",     // same Service ID
+            "template_7xy47zw",    // ✅ Auto-reply template ID
             {
               name: formData.name,
               email: formData.email,
               message: formData.message,
             },
-            "Tr3sfmejEUBSEHaKb"    // same Public Key
+            "5QbuCQ99nb_u8vxqY"    // same Public Key
           );
 
           setSuccess(true);
@@ -94,15 +94,15 @@ const Contact = () => {
               <p>connect@thefinara.com</p>
             </div>
             <div className="info-item">
-              <h4>Phone Number</h4>
-              <p>202-555-0188</p>
+            <h4>Phone Number</h4>
+            <img src={require('../assets/qr.jpeg')} alt="QR Code for Phone Number" style={{ width: '120px', height: '120px' }} />
             </div>
             <div className="info-item">
               {/* <h4>Location</h4> */}
               {/* <p>2360 Hood Avenue, San Diego, CA, 92123</p> */}
             </div>
             <div className="social-icons">
-  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.facebook.com/share/19NeZz2yDb/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-facebook-f"></i>
   </a>
   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">

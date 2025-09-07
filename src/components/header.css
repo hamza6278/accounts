@@ -77,9 +77,15 @@
   font-weight: 500;
   color: white;              /* ensure text is white */
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 .phone-number:hover {
   background: rgba(255, 255, 255, 0.1); /* optional subtle hover effect */
+}
+
+.phone-number:focus {
+  outline: 2px solid #F5C842; /* Yellow outline like your hover color */
+  outline-offset: 2px;
 }
 
 

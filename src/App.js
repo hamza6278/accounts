@@ -4,6 +4,8 @@ import header from './components/header';
 import Footer from './components/Footer';
 import AppRoutes from './routes/AppRoutes';
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
           <AppRoutes />
         </main>
         {/* <Footer /> */}
+      
+      <Analytics />
+      
       </div>
     </Router>
   );

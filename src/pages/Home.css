@@ -90,7 +90,7 @@ body {
 .hero-section {
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-              url('../assets/homehero.jpeg'); /* ← Updated path */
+              url('https://images.pexels.com/photos/19382111/pexels-photo-19382111.jpeg'); /* ← Updated path */
   background-size: cover;
   background-position: center;
   display: flex;

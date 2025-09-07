@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from "../assets/logo1.5.png";
 import './header.css';
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   const [showHeader, setShowHeader] = useState(true);
 
@@ -46,7 +48,14 @@ const Header = () => {
               Contact
             </Link>
           </nav>
-          <div className="phone-number">202-555-0188</div>
+          {/* <div className="phone-number">202-555-0188</div> */}
+          <button 
+            className="phone-number"
+            onClick={() => navigate("/contact")}
+          >
+            Get a Quote
+          </button>
+
         </div>
       </div>
     </header>
