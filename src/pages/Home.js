@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/Footer';
+import { useNavigate } from "react-router-dom"; 
 import './Home.css';
 
 const Home = () => {
+  const navigate = useNavigate(); 
   return (
     <div className="home-container">
       <Header />
@@ -19,7 +21,12 @@ const Home = () => {
             <p className="hero-subtitle">
               We handle the back-office work so you can focus on clients and growth
             </p>
-            <button className="cta-button">Get Started</button>
+<button 
+  className="cta-button"
+  onClick={() => navigate("/contact")}
+>
+  Get Started
+</button>
           </div>
         </div>
       </section>
@@ -86,7 +93,7 @@ const Home = () => {
                 At TheFinara, we’re finance professionals dedicated to supporting UK accounting firms. 
                 We handle the back-office work — so you can focus on clients and growth.
               </p>
-              <button className="find-out-button">Show Me How</button>
+              {/* <button className="find-out-button">Show Me How</button> */}
             </div>
             <div className="about-image">
               <div className="fern-image"></div>
@@ -107,7 +114,12 @@ const Home = () => {
               Big or small, one-off or ongoing  <br />
               we’re here to be your back-office partner.
             </p>
-            <button className="lets-talk-button">Let's Talk Now</button>
+            <button 
+  className="lets-talk-button"
+  onClick={() => navigate("/contact")}
+>
+  Let's Talk Now
+</button>
           </div>
         </div>
         {/* <button className="customize-btn questions-customize"> */}

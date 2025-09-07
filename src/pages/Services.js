@@ -2,8 +2,11 @@ import React from 'react';
 import './Services.css';
 import Header from '../components/header';
 import Footer from '../components/Footer';
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
+
+   const navigate = useNavigate(); 
   return (
     <div className="services-page">
       <Header />
@@ -30,13 +33,12 @@ const Services = () => {
               </p>
               {/* <button className="start-project-btn">Start a Project</button> */}
             
-                            <button 
-                className="start-project-btn" 
-                onClick={() => window.location.href = "http://localhost:3000/contact"}
-                >
-              Start a Project
-            </button>
-            
+          <button
+          className="start-project-btn"
+          onClick={() => navigate("/contact")}
+        >
+          Start a Project
+        </button>
             </div>
           </div>
 
@@ -55,12 +57,12 @@ const Services = () => {
               {/* <div className="price">From $99</div> */}
               {/* <button className="start-project-btn">Start a Project</button> */}
             
-                            <button 
-                className="start-project-btn" 
-                onClick={() => window.location.href = "http://localhost:3000/contact"}
-                >
-              Start a Project
-            </button>
+          <button
+          className="start-project-btn"
+          onClick={() => navigate("/contact")}
+        >
+          Start a Project
+        </button>
             
             </div>
           </div>
@@ -78,12 +80,12 @@ const Services = () => {
               {/* <div className="price">From $149</div> */}
               {/* <button className="start-project-btn">Start a Project</button> */}
 
-                              <button 
-                className="start-project-btn" 
-                onClick={() => window.location.href = "http://localhost:3000/contact"}
-                >
-              Start a Project
-            </button>
+          <button
+          className="start-project-btn"
+          onClick={() => navigate("/contact")}
+        >
+          Start a Project
+        </button>
 
             </div>
           </div>
@@ -101,12 +103,12 @@ const Services = () => {
                 
               </p>
               {/* <div className="price">From $99</div> */}
-                              <button 
-                className="start-project-btn" 
-                onClick={() => window.location.href = "http://localhost:3000/contact"}
-                >
-              Start a Project
-            </button>
+                         <button
+          className="start-project-btn"
+          onClick={() => navigate("/contact")}
+        >
+          Start a Project
+        </button>
             </div>
           </div>
 
@@ -123,12 +125,12 @@ const Services = () => {
                 
               </p>
               {/* <div className="price">From $99</div> */}
-                <button 
-                className="start-project-btn" 
-                onClick={() => window.location.href = "http://localhost:3000/contact"}
-                >
-              Start a Project
-            </button>
+                      <button
+          className="start-project-btn"
+          onClick={() => navigate("/contact")}
+        >
+          Start a Project
+        </button>
 
             </div>
           </div>

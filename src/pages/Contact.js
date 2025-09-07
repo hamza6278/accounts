@@ -43,7 +43,7 @@ const Contact = () => {
           name: formData.name,
           email: formData.email,
           message: formData.message,
-        },
+     },
         "Tr3sfmejEUBSEHaKb"     // ✅ Public API Key
       )
       .then(
@@ -108,9 +108,9 @@ const Contact = () => {
   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-instagram"></i>
   </a>
-  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-    <i className="fab fa-linkedin-in"></i>
-  </a>
+<a href="https://www.linkedin.com/company/the-finara/" target="_blank" rel="noopener noreferrer">
+  <i className="fab fa-linkedin-in"></i>
+</a>
 </div>
 
           </div>
