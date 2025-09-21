@@ -13,7 +13,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-overlay">
-          <div className="hero-content">
+          <div className="hero-contenthome">
             <h2 className="hero-title">
               Streamline Your Firm with </h2> <h1><br />
               <span className="hero-nature">Back-Office Support</span>
@@ -34,7 +34,7 @@ const Home = () => {
       {/* Services Section */}
       <section className="services-section">
         <div className="container">
-          <h2 className="section-title">Our Servicex</h2>
+          <h2 className="section-title">Our Services</h2>
           <div className="services-grid">
             <div className="service-card">
               <div className="service-image service-image-1"></div>

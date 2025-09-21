@@ -1,3 +1,5 @@
+
+
 /* About Container */
 .about-container {
   width: 100%;
@@ -119,7 +121,6 @@
   transform: translateX(-50%);
   line-height: 1;
 }
-
 
 
 
@@ -384,3 +385,4 @@
     gap: 15px;
   }
 }
+

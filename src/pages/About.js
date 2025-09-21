@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './About.css';
 import Header from "../components/header";
@@ -14,7 +15,6 @@ const About = () => {
           <h1 style={{ fontSize: '2.7rem', marginTop: 30, textAlign: 'center',textTransform: 'none' }}>Your Reliable Partner in UK Accounting Support</h1>
         </div>
       </section>
-
 
 
 
@@ -88,3 +88,4 @@ const About = () => {
 };
 
 export default About;
+

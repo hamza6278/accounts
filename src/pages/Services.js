@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './Services.css';
 import Header from '../components/header';
@@ -96,7 +97,7 @@ const Services = () => {
               <img src="https://images.pexels.com/photos/7947637/pexels-photo-7947637.jpeg" alt="Valley landscape" />
             </div>
             <div className="service-content">
-              <h2>Year‑End Working Notes </h2>
+              <h2>Year End Working Notes </h2>
               <p>Comprehensive, well-organised working papers designed to streamline audits, enhance accuracy, and ensure compliance. These notes provide clear documentation, supporting efficient year-end procedures, 
                 reducing errors, and enabling smooth collaboration between auditors and management</p>
               <p>
@@ -138,7 +139,6 @@ const Services = () => {
         </div>
       </section>
 
-
 {/* Why Love Nature Section */}
 <section className="why-love-nature">
   <div className="container">
@@ -146,11 +146,11 @@ const Services = () => {
       <h2>Why Finara?</h2>
       <p>Choosing the right outsourcing partner matters. At Finara, we make it simple: <br/>
       <br />
-      •	Built for UK Accountants – We understand compliance, accuracy, and deadlines.
+      • Built for UK Accountants – We understand compliance, accuracy, and deadlines.
       <br />
-      •	Cost-Effective & Scalable – Pay only for the support you need, when you need it. 
+      • Cost-Effective & Scalable – Pay only for the support you need, when you need it. 
       <br/>
-      •	Personal & Reliable, We're two accountants who know your challenges, & we've got your back(office).  
+      • Personal & Reliable, We're two accountants who know your challenges, & we've got your back(office).  
       
        </p> 
       <p> 👉 Let us handle the heavy lifting so you can focus on growing your firm.</p>
@@ -199,3 +199,6 @@ const Services = () => {
 };
 
 export default Services;
+
+
+
