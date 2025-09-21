@@ -22,7 +22,7 @@ const About = () => {
       <section className="about-hero">
         <div className="hero-content">
           <p className="hero-text">
-           We started TheFinara as two friends with the same passion helping accountants do less admin and more of what matters. From bookkeeping to self-assessments, we take care of the back-office 
+           We starts TheFinara as two friends with the same passion helping accountants do less admin and more of what matters. From bookkeeping to self-assessments, we take care of the back-office 
            details so your firm can stay compliant, save time, and keep growing.
           </p>
         </div>

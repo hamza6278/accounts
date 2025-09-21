@@ -497,18 +497,18 @@ body {
     gap: 20px;
   }
   
-  /* Fixed hero title for mobile */
+  /* Fixed hero title for mobile - split into two lines */
   .hero-title {
-    font-size: 2rem;
-    line-height: 1.2;
+    font-size: 1.8rem;
+    line-height: 1.4;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   
   .hero-nature {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-top: 0;
-    line-height: 1.1;
+    line-height: 1.2;
   }
   
   .hero-subtitle {
@@ -552,17 +552,17 @@ body {
 }
 
 @media (max-width: 480px) {
-  /* Even more specific mobile fixes */
+  /* Even more specific mobile fixes - two line text */
   .hero-title {
-    font-size: 1.6rem;
-    line-height: 1.3;
+    font-size: 1.5rem;
+    line-height: 1.4;
     margin-top: 30px;
     margin-bottom: 15px;
     padding: 0 15px;
   }
   
   .hero-nature {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 5px;
     line-height: 1.2;
     padding: 0 15px;

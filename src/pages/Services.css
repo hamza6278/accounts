@@ -215,8 +215,16 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  /* Fix "Our Services" title centering */
+  .hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
   .hero-content h1 {
     font-size: 2.5rem;
+    text-align: center !important;
   }
 
   .service-item {
@@ -224,6 +232,21 @@
     text-align: center;
     gap: 30px;
     margin-bottom: 60px;
+  }
+  
+  /* Fix service images centering */
+  .service-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .service-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    min-height: 200px;
   }
 
   .service-content h2 {
