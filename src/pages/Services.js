@@ -27,7 +27,7 @@ const Services = () => {
               <img src="https://images.pexels.com/photos/7111545/pexels-photo-7111545.jpeg" alt="Mountain landscape" />
             </div>
             <div className="service-content">
-              <h2>Bookkeiping</h2>
+              <h2>Bookkeeping</h2>
               <p>Our bookkeeping service offers reliable, timely, and accurate back-office support for UK accounting firms. Every transaction is recorded correctly, keeping your financial records organised, compliant, 
                 and audit-ready, so you can save time and focus on client growth.</p>
               <p>
