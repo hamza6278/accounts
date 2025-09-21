@@ -34,7 +34,7 @@ const Home = () => {
       {/* Services Section */}
       <section className="services-section">
         <div className="container">
-          <h2 className="section-title">Our Services</h2>
+          <h2 className="section-title">Our Servicesss</h2>
           <div className="services-grid">
             <div className="service-card">
               <div className="service-image service-image-1"></div>

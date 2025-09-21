@@ -497,12 +497,24 @@ body {
     gap: 20px;
   }
   
+  /* Fixed hero title for mobile */
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .hero-nature {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    margin-top: 0;
+    line-height: 1.1;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 0 10px;
   }
   
   .services-grid {
@@ -540,12 +552,27 @@ body {
 }
 
 @media (max-width: 480px) {
+  /* Even more specific mobile fixes */
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0 15px;
   }
   
   .hero-nature {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-top: 5px;
+    line-height: 1.2;
+    padding: 0 15px;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.95rem;
+    margin-top: 25px;
+    padding: 0 20px;
+    line-height: 1.6;
   }
   
   .section-title {
@@ -562,5 +589,10 @@ body {
   
   .testimonial-text {
     font-size: 1.2rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
