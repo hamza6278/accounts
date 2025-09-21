@@ -215,16 +215,25 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  /* Fix "Our Services" title centering */
+  /* Fix "Our Services" title centering and size */
+  .services-hero {
+    padding-top: 80px; /* Space for fixed header */
+    height: 60vh;
+  }
+  
   .hero-content {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0 20px;
   }
   
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem !important;
     text-align: center !important;
+    line-height: 1.2;
+    margin: 0 !important;
   }
 
   .service-item {
@@ -280,7 +289,8 @@
 
 @media (max-width: 480px) {
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 1.6rem !important;
+    margin: 0 !important;
   }
 
   .service-content h2 {
